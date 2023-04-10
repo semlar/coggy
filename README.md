@@ -6,6 +6,10 @@ A Discord.py bot for Cognitive AI Lab.
 
 TODO
 
+## Config
+
+- Rename `config.json.example` to `config.json`
+
 ## Setup
 
 - Make sure you have [Poetry](https://python-poetry.org/) installed
