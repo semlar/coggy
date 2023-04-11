@@ -2,11 +2,10 @@ import time
 
 from discord.ext import commands
 
+from coggy.utils.cogs import CommandCog
 
-class Ping(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
 
+class Ping(CommandCog):
     @commands.command()
     async def ping(self, ctx):
         """Pong!"""
