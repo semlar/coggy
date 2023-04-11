@@ -7,7 +7,7 @@ readme = "README.md"
 license = "MIT"
 
 [tool.poetry.scripts]
-start = "coggy:main"
+start = "coggy:start"
 
 [tool.poetry.dependencies]
 python = "^3.9"
